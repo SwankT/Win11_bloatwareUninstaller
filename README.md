@@ -1,8 +1,11 @@
 # Win11_bloatwareUninstaller
 
+<p align="center">
+  <img src="images/win11_bloatwareUninstaller_example.png" />
+</p>
+
 ## Description
 Powershell tool for removing Windows 11 bloatware
-[](images/win11_bloatwareUninstaller_example.png)
 
 ## Instructions
 1. Not Digitally Signed:
@@ -25,8 +28,12 @@ Powershell tool for removing Windows 11 bloatware
 ## Active directory Setup (System Admin)
 > *Coming Soon!*
 
-## Special Cases
+## Known Issues
 
-  * Microsoft Edge: <br />
-    [](images/uninstallError93.png) <br />
-    "Unistall failed with exit code: 93" Currently Microsoft Edge has additional protects to prevent uninstall.
+#### Microsoft Edge:
+&nbsp;&nbsp;&nbsp; <img src="images/uninstallError93.png" /> <br />
+&nbsp;&nbsp;&nbsp; *Edge currently has additional protections to prevent uninstall. May include a workaround in the future.*
+
+#### Microsoft Engagement Framework:
+&nbsp;&nbsp;&nbsp; <img src="images/engagementFramework.png" /> <br />
+&nbsp;&nbsp;&nbsp; *Engagement Framework will report as uninstalled but not actually be removed. Will be investigating.*
