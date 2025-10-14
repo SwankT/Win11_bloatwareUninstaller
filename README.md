@@ -2,7 +2,7 @@
 
 ## Description
 Powershell tool for removing Windows 11 bloatware
-[](../images/ADD_HERE.png)
+[](images/win11_bloatwareUninstaller_example.png)
 
 ## Instructions
 1. Not Digitally Signed:
@@ -19,14 +19,14 @@ Powershell tool for removing Windows 11 bloatware
     * a. Run Script as default
     * b. Edit script to uninstall only the programs you want to remove
 
-## Schecdule to run automatically
- _ Coming Soon_
+## Schedule & Automate
+> *Coming Soon!*
 
 ## Active directory Setup (System Admin)
- _ Coming Soon_
+> *Coming Soon!*
 
 ## Special Cases
 
   * Microsoft Edge: <br />
-    [](../images/ADD_HERE.png) <br />
+    [](images/uninstallError93.png) <br />
     "Unistall failed with exit code: 93" Currently Microsoft Edge has additional protects to prevent uninstall.
