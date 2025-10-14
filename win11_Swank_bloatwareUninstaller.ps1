@@ -15,7 +15,7 @@
 ##############################################################################################################
 
 # Search List
-$bloatArray = "Microsoft Bing", "Microsoft Clipchamp", "Microsoft News", "Microsoft Teams", "MSN Weather", "Get Help", "Outlook for Windows", "Power Automate", "Microsoft Engagement Framework", "Skype", "Start Experiences App", "Store Experience Host", "Microsoft Store", "Solitaire & Casual Games", "Xbox", "Xbox Identity Provider", "Xbox TCUI", "Xbox Game Bar Plugin", "Game Bar", "Game Speech Window", "Phone Link", "Quick Assist", "Windows Web Experience Pack", "Cross Device Experience Host"
+$bloatArray = "Microsoft Bing", "Microsoft Clipchamp", "Microsoft News", "Microsoft Teams", "MSN Weather", "Get Help", "Outlook for Windows", "Power Automate", "Microsoft Engagement Framework", "Skype", "Start Experiences App", "Store Experience Host", "Microsoft Store", "Solitaire & Casual Games", "Xbox", "Xbox Identity Provider", "Xbox TCUI", "Xbox Game Bar Plugin", "Game Bar", "Game Speech Window", "Phone Link", "Quick Assist", "Windows Web Experience Pack", "Cross Device Experience Host", "Microsoft Copilot", "Microsoft 365 Copilot", "Widget Platform runtime", "Windows Camera", "Dev Home", "Windows Web Experience Pack", "Microsoft OneDrive", "Windows Sound Recorder"
 
 ##############################################################################################################
 
