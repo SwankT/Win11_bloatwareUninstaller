@@ -10,7 +10,7 @@ Powershell tool for removing Windows 11 bloatware
 ## Instructions
 1. Not Digitally Signed:
 
-    * Open terminal with admin autorization. (Right-click and Run as administrator)
+    * Open terminal with admin autorization. (Right-click & Run as administrator)
     * Run `Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine`
 
 > [!NOTE]
@@ -20,8 +20,12 @@ Powershell tool for removing Windows 11 bloatware
  2. Usage (a or b):
 
     * a. Run Script as default
-    * b. Edit script to uninstall only the programs you want to remove
+      * (Right-click & Run with Powershell)
 
+    * b. Edit script to uninstall only the programs you want to remove
+      * Modify `$bloatArray` using an editor such as [Notepad++](https://notepad-plus-plus.org/).
+      * Save & Run script
+      
 ## Schedule & Automate
 > *Coming Soon!*
 
@@ -31,9 +35,9 @@ Powershell tool for removing Windows 11 bloatware
 ## Known Issues
 
 #### Microsoft Edge:
-&nbsp;&nbsp;&nbsp; <img src="images/uninstallError93.png" /> <br />
-&nbsp;&nbsp;&nbsp; *Edge currently has additional protections to prevent uninstall. May include a workaround in the future.*
+> <img src="images/uninstallError93.png" /> <br />
+> *Edge currently has additional protections to prevent uninstall. May include workaround in the future.*
 
 #### Microsoft Engagement Framework:
-&nbsp;&nbsp;&nbsp; <img src="images/engagementFramework.png" /> <br />
-&nbsp;&nbsp;&nbsp; *Engagement Framework will report as uninstalled but not actually be removed. Will be investigating.*
+> <img src="images/engagementFramework.png" /> <br />
+> *Engagement Framework will report as uninstalled but not actually be removed. Planning to investigate.*
