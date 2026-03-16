@@ -5,7 +5,7 @@
 </p>
 
 ## Description
-Powershell tool for removing Windows 11 bloatware
+Simple Powershell tool for removing Windows 11 bloatware, utilizing winget.
 
 ## Instructions
 1. Not Digitally Signed:
@@ -14,29 +14,23 @@ Powershell tool for removing Windows 11 bloatware
     * Run `Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine`
 
 > [!NOTE]
-> You can learn about Windows PowerShell Policies here: <br />
+> Unrestricted execution is not recommened for production environments. You can learn about Windows PowerShell Policies here: <br />
 > https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy
 
  2. Usage (a or b):
 
-    * a. Run Script as default
-      * (Right-click & Run with Powershell)
+    * a. Run Script as is (default)
+      * Right-click & Run with Powershell
 
-    * b. Edit script to uninstall only the programs you want to remove
-      * Modify `$bloatArray` using an editor such as [Notepad++](https://notepad-plus-plus.org/).
-      * Save & Run script
-      
-## Schedule & Automate
-> *Coming Soon!*
-
-## Active directory Setup (System Admin)
-> *Coming Soon!*
+    * b. Editing script to uninstall only certain programs
+      * Add/Remove program Id's from list `$bloatArray` as desired. New Id's can be found using `winget list`
+      * Save changes & run script
 
 ## Known Issues
 
 #### Microsoft Edge:
 > <img src="images/uninstallError93.png" /> <br />
-> *Edge currently has additional protections to prevent uninstall. May include workaround in the future.*
+> *Edge currently has additional protections to prevent uninstall. May include workarounds in the future.*
 
 #### Microsoft Engagement Framework:
 > <img src="images/engagementFramework.png" /> <br />
